@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "NzQ5MzA4ODQ1MjYzNjgzNjI1.GZem7n.CxVzuBiLulXxWuX86Y_zJ6Fh5fQzv_LsJpzKnA"
+TOKEN = "token"
 KEYWORDS = ["Ukraine", "ukraine"]  # Words to detect
 REPLY_TEXT = "HАШ Слава Богу 🙏❤️СЛАВА РОССИИ 🙏❤️АНГЕЛА ХРАНИТЕЛЯ КАЖДОМУ ИЗ ВАС 🙏❤️БОЖЕ ХРАНИ РОССИЮ 🙏❤️СПАСИБО ВАМ НАШИ МАЛЬЧИКИ 🙏🏼❤️🇷🇺 ЧТО ПОДДЕРЖИМ НАШИХ СРАЗУ видно НАШ СЛОНЯРА🇷🇺🇷🇺💪 СВО слава тебе Господи🇷🇺🇷🇺🇷🇺💪🔥🔥 СВО да хранит ТЕБЯ ГОСПОДЬ🔥💪💪🇷🇺 НАШ живчик СРАЗУ видно НАШИХ парней издалека🇷🇺🇷🇺🇷🇺🇷🇺💪💪💪💪💪 СВОих не бросаем🇷🇺🇷🇺🇷🇺🇷🇺🇷🇺🇷🇺🇷🇺🇷🇺🇷🇺💪💪Слава Богу СВО🙏❤️СЛАВА СВО🙏❤️АНГЕЛА ХРАНИТЕЛЯ СВО КАЖДОМУ ИЗ ВАС🙏❤️БОЖЕ ХРАНИ СВО🙏❤️СПАСИБО ВАМ НАШИ СВО🙏🏼❤️🇷🇺 ХРОНИ СВО✊🇷🇺💯СПАСИБО ВАМ НАШИ МАЛЬЧИКИ 🙏🏼❤️🇷🇺 ЧТО ПОДДЕРЖИВАЕТЕ СВО"
 bot_enabled = True  # Toggle state
@@ -27,3 +27,4 @@ async def on_message(message):
     await bot.process_commands(message)  # Ensures commands still work
 
 bot.run(TOKEN)
+
